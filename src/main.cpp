@@ -32,9 +32,11 @@ int main() {
         // Spawning of the Objects.
         grid->setCollisionInstructions(0);
         if (IsMouseButtonDown(MOUSE_BUTTON_LEFT)) {
-            for (int i = 0; i < spawn_amount; i++ ) {
-                Entity* entity = new Entity(grid, GetMousePosition());
-                entity_vector.push_back(entity);
+            if (!(GetMousePosition().x > 1077 || GetMousePosition().y > 1077 || GetMousePosition().x < 3 || GetMousePosition().y < 3)) {
+                for (int i = 0; i < spawn_amount; i++) {
+                    Entity* entity = new Entity(grid, GetMousePosition());
+                    entity_vector.push_back(entity);
+                }
             }
         }
 
