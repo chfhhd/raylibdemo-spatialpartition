@@ -14,6 +14,8 @@
 A simple raylib project to demonstrate the "Spatial Partition Optimization Pattern" by following the example from:
 https://gameprogrammingpatterns.com/spatial-partition.html
 
+![Raylib Demo - Spatial Partition](https://user-images.githubusercontent.com/100346454/189760975-a70fe1e9-0f88-4f60-a6fa-5d1221a7f061.png)
+
 ## Usage
 
 Before you start the programm change `NUM_CELLS` and `CELL_SIZE` in `grid.h`, which is located in `src/headerfiles`, to one of the four values, which are commented of to the side of the constants.
