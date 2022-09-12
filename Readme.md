@@ -19,6 +19,9 @@ https://gameprogrammingpatterns.com/spatial-partition.html
 ## Usage
 
 Before you start the programm change `NUM_CELLS` and `CELL_SIZE` in `grid.h`, which is located in `src/headerfiles`, to one of the four values, which are commented of to the side of the constants.
+
+![grid constants](https://user-images.githubusercontent.com/100346454/189764487-a45f4709-b60b-4d04-a0da-968742abc356.png)
+
 You can also experiment with the values to get different results.
 
 ### Controlls
