@@ -2,6 +2,8 @@
 
 #include "header.h"
 
+class Grid;
+
 class Entity {
 
 	friend class Grid;
